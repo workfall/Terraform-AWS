@@ -10,9 +10,11 @@ Steps:
 2. Provide your access keys and secret in main.tf files.
 3. Provide your MS team webhook url in python script {workfall.py,line 45}.
 4. Run the following commands:
-    terraform init
-    terraform plan
-    terraform apply --auto-approve
+    $terraform init
+        
+    $terraform plan
+        
+    $terraform apply --auto-approve
 
 
 To test the function:
